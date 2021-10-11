@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/chapter1.rpy", line 22: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        ro '"Hmmm... Mayuri acted weird today again... She was staring at me a lot...'"
+File "game/scripts/chapter1.rpy", line 10: play requires a file
+    play lab
+            ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Sat Oct  9 22:14:22 2021
+Mon Oct 11 21:57:30 2021

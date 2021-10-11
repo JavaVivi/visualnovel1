@@ -7,6 +7,8 @@ label chapter1:
     scene lab
     with dissolve
 
+    play music "audio/lab.ogg"
+
     ro "I am finally back from university. My bag is so heavy. I always have to carry a lot of books. "
 
     ro "I am an engineer student after all."
@@ -47,7 +49,7 @@ label chapter1:
 
     ro "I have a rent to pay but for some reason it's manageable."
 
-    ro "My family does not live in my city but in Tokyo."
+    ro "My family does live in my city but in the opposite side of Tokyo."
 
     ro "And friends ?"
 
@@ -60,4 +62,22 @@ label chapter1:
     with dissolve
 
     ro "I don't need them anyway."
+    ro "My fight is for me and me alone to fight. I don't want to involve anyone else."
+
+    hide black
+    hide okabe closed
+    show lab
+    with dissolve
+
+    "Okabe laughs a bit loudly and finishes his banana, before heading to his microwave."
+
+    stop music fadeout 1.0
+
+    "He stare down at it. The microwave is a normal one at first sight but it actually has been modified by him."
+
+    play music "audio/mystery.ogg"
+    scene phonewave
+    with dissolve
+
+    ro '"..."'
     return
