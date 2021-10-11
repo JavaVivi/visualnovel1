@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/chapter1.rpy", line 22: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        ro '"Hmmm... Mayuri acted weird today again... She was staring at me a lot...'"
+
+Ren'Py Version: Ren'Py 7.4.9.2142
+Sat Oct  9 22:14:22 2021
